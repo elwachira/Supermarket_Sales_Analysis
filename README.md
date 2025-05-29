@@ -53,6 +53,13 @@ Invoice ID: Unique transaction identifier
   ##### Total sales by customer type
 
      sns.barplot(x='Customer type', y='Total', data=df)
+### Time Series trend
+  #### Line graph 
+
+     daily_sales = df.groupby('Date')['Total'].sum()
+     daily_sales.plot(title="Daily Sales Trend")
+
+     
 
 
   
