@@ -58,6 +58,12 @@ Invoice ID: Unique transaction identifier
 
      daily_sales = df.groupby('Date')['Total'].sum()
      daily_sales.plot(title="Daily Sales Trend")
+### Screenshots
+
+<img width="896" alt="correlation" src="https://github.com/user-attachments/assets/b0825201-8909-4141-99af-3789477c1117" />
+
+                                                                    
+
 
      
 
