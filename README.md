@@ -44,5 +44,15 @@ Invoice ID: Unique transaction identifier
   
      df['Product line'].value_counts()
 
+ #### Plotting a bar plot showing;
+
+  #### Total sales by Gender.
+
+     sns.barplot(x='Gender', y='Total', data=df)
+
+  ##### Total sales by customer type
+
+     sns.barplot(x='Customer type', y='Total', data=df)
+
 
   
