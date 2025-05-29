@@ -18,3 +18,18 @@ Invoice ID: Unique transaction identifier
 - Tax 5%: Tax applied to the purchase
 - Total: Total amount (including tax)
 - Date: Date of purchase
+
+  ### Objectives
+- Identify sales trends by date and product line.
+- Compare performance across branches.
+- Analyze customer purchasing behavior by gender and type.
+- Evaluate product line profitability and popularity.
+- Discover insights from payment methods and gross income.
+- Visualize key metrics using plots.
+
+  ### Tools
+- Python
+- Pandas & NumPy for data manipulation
+- Matplotlib & Seaborn for visualization
+
+  
