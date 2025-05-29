@@ -70,7 +70,13 @@ Invoice ID: Unique transaction identifier
 
      Quantity is not strongly correlated with total sales or income,Could mean higher quantity doesn’t always mean higher revenue (depends on price).
 
-     Rating has almost no correlation with any financial metrics.
+     Rating has almost no correlation with any financial metrics
+
+  #### Gross Income VS Rating
+   ##### Screenshot
+   <img width="902" alt="correlation 2" src="https://github.com/user-attachments/assets/85921a78-f65d-4a1a-aa27-a9716e32e23e" />
+
+  
 
                                                                     
 
