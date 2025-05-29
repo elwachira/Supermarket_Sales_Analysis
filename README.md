@@ -19,7 +19,7 @@ Invoice ID: Unique transaction identifier
 - Total: Total amount (including tax)
 - Date: Date of purchase
 
-  ### Objectives
+### Objectives
 - Identify sales trends by date and product line.
 - Compare performance across branches.
 - Analyze customer purchasing behavior by gender and type.
@@ -27,33 +27,33 @@ Invoice ID: Unique transaction identifier
 - Discover insights from payment methods and gross income.
 - Visualize key metrics using plots.
 
-  ### Tools
+### Tools
 - Python
 - Pandas & NumPy for data manipulation
 - Matplotlib & Seaborn for visualization
 
-   ### Sample Insights
+### Sample Insights
 - Most profitable branch and best-selling product line
 - Peak sales days
 - Preferred payment method by customer type
 - Correlation between rating and gross income
 
-  ### Sample codes
+### Sample codes
 
- #### To determine best selling product lines.
+  #### To determine best selling product lines.
   
-     df['Product line'].value_counts()
+       df['Product line'].value_counts()
 
- #### Plotting a bar plot showing;
+  ### Plotting a bar plot showing;
 
   #### Total sales by Gender.
 
      sns.barplot(x='Gender', y='Total', data=df)
 
-  ##### Total sales by customer type
+  #### Total sales by customer type
 
      sns.barplot(x='Customer type', y='Total', data=df)
-### Time Series trend
+  ### Time Series trend
   #### Line graph 
 
      daily_sales = df.groupby('Date')['Total'].sum()
@@ -61,6 +61,16 @@ Invoice ID: Unique transaction identifier
 ### Screenshots
 
 <img width="896" alt="correlation" src="https://github.com/user-attachments/assets/b0825201-8909-4141-99af-3789477c1117" />
+
+   ##### Insights gathered from the correlation.
+
+     Tax 5%, Total, cogs, and gross income are all perfectly positively correlated (1.00),this makes sense since they're mathematically linked.
+
+     Unit price shows a moderate positive correlation (~0.60) with revenue and income,higher priced items = more profit.
+
+     Quantity is not strongly correlated with total sales or income,Could mean higher quantity doesn’t always mean higher revenue (depends on price).
+
+     Rating has almost no correlation with any financial metrics.
 
                                                                     
 
