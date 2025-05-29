@@ -32,4 +32,17 @@ Invoice ID: Unique transaction identifier
 - Pandas & NumPy for data manipulation
 - Matplotlib & Seaborn for visualization
 
+   ### Sample Insights
+- Most profitable branch and best-selling product line
+- Peak sales days
+- Preferred payment method by customer type
+- Correlation between rating and gross income
+
+  ### Sample codes
+
+ #### To determine best selling product lines.
+  
+     df['Product line'].value_counts()
+
+
   
