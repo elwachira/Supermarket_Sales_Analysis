@@ -75,7 +75,15 @@ Invoice ID: Unique transaction identifier
   #### Gross Income VS Rating
    ##### Screenshot
    <img width="902" alt="correlation 2" src="https://github.com/user-attachments/assets/85921a78-f65d-4a1a-aa27-a9716e32e23e" />
+## Contributing
+Contributions are welcome! To extend or improve this project:
 
+- Fork this repository
+- Clone your fork and create a new branch Contributing
+- Add your new visualizations or improvements
+- Commit your changes with clear messages
+- Submit a Pull Request for review
+- Feel free to open an issue for suggestions or bugs.
   
 
                                                                     
